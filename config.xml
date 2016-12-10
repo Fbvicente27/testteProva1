@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.fib.prova.teste" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>“Prova”</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+     <author href="http://fibr.br" email="walesca.andrade@icloud.com">
+            Walesca Andrade
+        </author>
+		
+		<preference name="Orientation" value="portrait"/>
+        <preference name="Fullscreen" value="true" />
+        <preference name="DisallowOverscroll" value="true" />
+		
+		
+		<platform name="android">
+            <preference name="Fullscreen" value="true" />
+        </platform>
+		<platform name="ios">
+            <preference name="Fullscreen" value="true" />
+        </platform>
+		
+    
+</widget>
